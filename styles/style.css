@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "circular";
+  src: url("./Fuentes/circular-pro-bold.woff2");
+}
+@font-face {
+  font-family: "circular2";
+  src: url("./Fuentes/circular-pro-book.woff2");
+}
+/* @import ./styles/colors/colors.scss  */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*@media screen and (min-width: 25rem) .firstpage__title {
+    font-size: calc(2.75rem + (20 * (100vw - 400px)/ 624));
+}*/
+.navbar {
+  background-color: #541554;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.navbar__logo {
+  padding-left: 25px;
+}
+
+.navbar__hamburguer {
+  padding-right: 25px;
+}
+
+.firstpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  background-color: #541554;
+}
+
+.firstpage__title {
+  font-family: "circular";
+  display: flex;
+  font-weight: 700;
+  line-height: 1.0625;
+  letter-spacing: -1.5px;
+  font-size: 2.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  margin-bottom: 13px;
+}
+
+.firspage__title--yellow {
+  color: yellow;
+}
+
+.firspage__text {
+  color: rgb(255, 255, 255);
+  display: flex;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+  padding: 0, 2rem;
+  margin: 0 1rem;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.firstpage__button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.firstpage__button--register {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  /*line-height: 1.2857;*/
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  padding: 19px 40px 20px;
+  display: block;
+  width: 100%;
+  background-color: white;
+  color: #541554;
+  margin: 0 0 7px 0;
+}
+
+.firstpage__button--google {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  /*line-height: 1.2857;*/
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  padding: 19px 40px 20px;
+  display: block;
+  width: 100%;
+  background-color: #4285f4;
+  color: white;
+}
+
+.firstpage__button--mingoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  bottom: 48px;
+  left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.secondpage {
+  background-color: #f4ede4;
+  /*display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align:center;
+  padding: 3rem 8vw 3rem 8vw;*/
+}
+
+.secondpage__rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  text-align: center;
+  padding: 3rem 8vw 3rem 8vw;
+}
+
+/*.secondpage__title {
+
+}*/
+.secondpage__sponsors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+.secondpage__sponsors img {
+  margin: 8px;
+  max-height: 150px;
+}
+
+.secondpage__image {
+  display: flex;
+  justify-content: flex-start;
+  padding: none;
+}
+
+.secondpage__text {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+.secondpage__text h1 {
+  font-size: 30px;
+  font-family: Slack-Circular-Pro;
+  padding: 20px 0 15px 0;
+}
+.secondpage__text p {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.secondpage__text a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1264a3;
+  padding-bottom: 50px;
+}
+
+.secondpage__image2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: none;
+}
+
+.secondpage__text2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+.secondpage__text2 h1 {
+  font-size: 30px;
+  font-family: Slack-Circular-Pro;
+  padding: 20px 0 15px 0;
+}
+.secondpage__text2 p {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.secondpage__text2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1264a3;
+  padding-bottom: 50px;
+}
+
+/*.firtspage__button--mingoogle-icon {
+
+    height: 30px;
+    width: 50%;
+
+}
+   /* position: relative;
+background-color: white;
+bottom: 48px;
+left: 10px; *//*# sourceMappingURL=style.css.map */
