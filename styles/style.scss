@@ -31,6 +31,7 @@ $hiperTextColor: #1264a3;
     align-items: center;
     width: 100%;
     height: 80px;
+    position: fixed;
 }
 
 .navbar__logo {
@@ -49,6 +50,7 @@ $hiperTextColor: #1264a3;
     width: 100%;
     text-align:center;
     background-color: $firstPageColor;
+    padding-top: 80px;
 }
 
 .firstpage__title{
@@ -179,6 +181,12 @@ $hiperTextColor: #1264a3;
     
 }
 
+.secondpage__title {
+    h2{
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    }
+}
+
 .secondpage__text {
     display:flex;
     justify-content: flex-start;
@@ -193,6 +201,7 @@ $hiperTextColor: #1264a3;
                     font-size: 20px;
                     text-align: left;
                     padding-bottom: 15px;
+                   /* font-weight: 700; */
                     
                   }
                 a{
@@ -214,6 +223,8 @@ $hiperTextColor: #1264a3;
     justify-content: flex-start;
     margin-left: 15px;
     flex-wrap: wrap;
+    text-align: left;
+    font-size: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
             h1{
                 font-size: 30px;
                 font-family: Slack-Circular-Pro;
@@ -223,6 +234,7 @@ $hiperTextColor: #1264a3;
                     font-size: 20px;
                     text-align: left;
                     padding-bottom: 15px;
+                   /* font-weight: 700; */
                     
                   }
                 a{
@@ -233,6 +245,39 @@ $hiperTextColor: #1264a3;
                   }
             }
 
+
+.secondpage__image3{
+    display:flex;
+    justify-content: flex-start;
+    padding: none;
+
+ }
+
+ .secondpage__text3 {
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    text-align: left;
+            h1{
+                font-size: 30px;
+                font-family: Slack-Circular-Pro;
+                padding: 20px 0 15px 0;
+                  }
+                  p{ 
+                    font-size: 20px;
+                    text-align: left;
+                    padding-bottom: 15px;
+                   /* font-weight: 700; */
+                    
+                  }
+                a{
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: $hiperTextColor;
+                    padding-bottom: 50px;
+                  }
+            }
 
 /*.firtspage__button--mingoogle-icon {
     
@@ -245,4 +290,263 @@ background-color: white;
 bottom: 48px;
 left: 10px; */
 
- 
+
+.thirdpage__rules {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   /* width: 100%; */
+    text-align:center;
+    padding: 3rem 8vw 3rem 8vw;
+
+}
+
+.thirdpage__text {
+    display:flex;
+    justify-content: center;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+            h1{
+                font-size: 35px;
+                font-family: Slack-Circular-Pro;
+                padding: 20px 0 15px 0;
+                
+                  }
+            p{ 
+                font-size: 20px;
+                text-align: left;
+                padding-bottom: 15px;
+                text-align: center;
+                   /* font-weight: 700; */
+                    
+                  }
+                
+            }
+            .thirdpage__button{
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .thirdpage__button--know {
+                font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                border: none;
+                border-radius: 4px;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: .8px;
+                font-size: .875rem;
+                padding: 19px 40px 20px;
+                display: block;
+                width: 100%;
+                background-color: $firstPageColor;
+                color: white;
+                margin: 0 0 7px 0;
+            }
+            .thirdpage__button--talk {
+                font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                border-width: thin;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: .8px;
+                font-size: .875rem;
+                padding: 19px 27px 20px;
+                display: block;
+                width: 100%;
+                background-color: white;
+                color: $firstPageColor;
+            }
+
+            .thirdpage__percentage {
+                display:flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            .thirdpage__percentage--block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                padding: 1rem 0;
+
+
+                h2{
+                    font-size: 4rem;
+                    color: $firstPageColor
+                }
+                p{
+                    font-size: 15px;
+                    max-width: 52%;
+                    padding-bottom: 20px; 
+                }
+            }
+            .coso {
+                padding-bottom: 30px;
+                border-top-right-radius: 500px;
+                border-bottom-right-radius: 500px;
+            }
+
+            
+
+           /* .thirdpage__video{
+                    width: 350px;
+                    border-radius: 10px; 
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 100%;
+                    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+                    -webkit-transform: rotate(0.000001deg); 
+                    -webkit-border-radius: 100%; 
+                    -moz-border-radius: 100%;
+                    
+            }*/
+
+            /*.thirdpage__image{
+            display:flex;
+            justify-content: flex-start;
+            padding: none;
+            border-radius: 100%;
+            -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+            -webkit-transform: rotate(0.000001deg); 
+            -webkit-border-radius: 100%; 
+            -moz-border-radius: 100%;
+            } */
+
+            .thirdpage__parraf{
+                display:flex;
+                justify-content: right;
+                flex-direction: column;
+                margin-left: 25px; 
+                margin-bottom: 75px;
+
+               /* &__parraf1{
+                   
+                    font-size: 22px;
+                    font-weight: thin;
+                    font-style: italic;
+                    padding-bottom: 10px;                   
+                }
+
+                &__parraf2{
+                 
+                    font-weight: bold;                    
+                }*/
+
+                a {
+                    text-decoration: none;
+                    color:#1264a3;
+                    font-size: 19px;
+                    font-weight: bold;
+                }
+            }
+
+            .thirdpage__parraf1 {
+                font-size: 22px;
+                font-weight: thin;
+                font-style: italic;
+                padding-bottom: 20px; 
+            }
+
+            .thirdpage__parraf2 {
+                font-weight: bolder;
+                font-size: 16px; 
+                
+
+                .span {
+                    font-weight: none;
+                    
+                }
+            }
+
+            .thirdpage__aclaration{
+                margin-top: 75px;
+                margin-right: 0.5rem;
+                padding-left: 20px;
+                padding-bottom: 25px;
+            }
+            .thirdpage__aclaration-p {
+                margin-top: 30px;
+                font-weight: 400;
+                line-height: 1.2857;
+                letter-spacing: normal;
+                font-size: .875rem;
+                margin-bottom: 1rem;
+                color: #696969;
+            }
+
+            /* Aqui empieza la Cuarta pagina */
+
+            .fourpage {
+                background-color: $secondPageColor;
+            }
+            .fourpage__rules {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+               /* width: 100%; */
+                text-align:center;
+                padding: 3rem 8vw 3rem 8vw;
+            }
+                
+            .fourpage__title{
+                
+                padding-bottom: 20px;
+                h2 {
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+
+            .fourpage__card {
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: white;
+                max-width: 90%;
+                
+            }
+
+            .fourpage__car-img{
+                padding: 15px;
+            }
+
+            .fourpage__card-text {
+                display:flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                text-align: left;
+               
+            }
+
+            .fourpage__card-text-1 {
+                    padding-bottom: 10px;
+                    padding-left: 15px;
+                    color: grey;
+                }
+
+            .fourpage__card-text-2{
+                    font-size: 25px;
+                    padding-left: 15px;
+                    font-weight: bold;
+                    padding-bottom: 40px;
+        
+                }
+            .fourpage__card-function{
+
+                p{
+                    color:#1264a3;
+                    font-size: 15px;
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                    text-align: left;
+                }
+            }
+            
