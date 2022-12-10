@@ -1,0 +1,23 @@
+*{ 
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.navbar {
+    background-color: $firstPageColor;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.navbar__logo {
+    padding-left: 25px;
+}
+
+.navbar__hamburguer {
+    padding-right: 25px;
+}
